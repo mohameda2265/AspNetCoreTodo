@@ -10,3 +10,15 @@ G:\projects\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\netcoreapp2.0\AspNetCoreTodo
 G:\projects\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\netcoreapp2.0\AspNetCoreTodo.AssemblyInfo.cs
 G:\projects\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\netcoreapp2.0\AspNetCoreTodo.dll
 G:\projects\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\netcoreapp2.0\AspNetCoreTodo.pdb
+D:\Ashraf\AspNetCoreTodo\bin\Debug\netcoreapp2.0\app.db
+D:\Ashraf\AspNetCoreTodo\bin\Debug\netcoreapp2.0\AspNetCoreTodo.deps.json
+D:\Ashraf\AspNetCoreTodo\bin\Debug\netcoreapp2.0\AspNetCoreTodo.runtimeconfig.json
+D:\Ashraf\AspNetCoreTodo\bin\Debug\netcoreapp2.0\AspNetCoreTodo.runtimeconfig.dev.json
+D:\Ashraf\AspNetCoreTodo\bin\Debug\netcoreapp2.0\AspNetCoreTodo.dll
+D:\Ashraf\AspNetCoreTodo\bin\Debug\netcoreapp2.0\AspNetCoreTodo.pdb
+D:\Ashraf\AspNetCoreTodo\obj\Debug\netcoreapp2.0\AspNetCoreTodo.csproj.CoreCompileInputs.cache
+D:\Ashraf\AspNetCoreTodo\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\Ashraf\AspNetCoreTodo\obj\Debug\netcoreapp2.0\AspNetCoreTodo.AssemblyInfoInputs.cache
+D:\Ashraf\AspNetCoreTodo\obj\Debug\netcoreapp2.0\AspNetCoreTodo.AssemblyInfo.cs
+D:\Ashraf\AspNetCoreTodo\obj\Debug\netcoreapp2.0\AspNetCoreTodo.dll
+D:\Ashraf\AspNetCoreTodo\obj\Debug\netcoreapp2.0\AspNetCoreTodo.pdb
