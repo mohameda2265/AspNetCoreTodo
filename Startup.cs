@@ -32,7 +32,9 @@ namespace AspNetCoreTodo
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
-            services.AddSingleton<ITodoItemService, TodoItemService>();
+            //services.AddSingleton<ITodoItemService, TodoItemService>();
+
+            services.AddScoped<ITodoItemService, TodoItemService>();
 
             // Add application services.
             services.AddTransient<IEmailSender, EmailSender>();
