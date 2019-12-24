@@ -1,5 +1,5 @@
-@model TodoViewModel
-@using Humanizer
+@model TodoViewModel;
+@using Humanizer;
 
 @{
     ViewData ["Title"] = "Manage your todo list";
@@ -12,7 +12,6 @@
             <tr>
                 <td>&#x2714;</td>
                 <td>Item</td>
-                <td>IsDone</td>
                 <td>Due</td>
             </tr>
         </thead>
@@ -26,7 +25,6 @@
                     </form>
                 </td>
                 <td>@item.Title</td>
-                <td>@item.IsDone</td>
                 <td>@item.DueAt.Humanize()</td>
             </tr>
             }
