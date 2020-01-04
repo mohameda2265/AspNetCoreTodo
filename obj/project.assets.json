@@ -14178,11 +14178,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "g:\\projects\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+      "projectUniqueName": "G:\\projects\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
       "projectName": "AspNetCoreTodo",
-      "projectPath": "g:\\projects\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+      "projectPath": "G:\\projects\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
       "packagesPath": "C:\\Users\\Muhammad Ashraf\\.nuget\\packages\\",
-      "outputPath": "g:\\projects\\AspNetCoreTodo\\AspNetCoreTodo\\obj\\",
+      "outputPath": "G:\\projects\\AspNetCoreTodo\\AspNetCoreTodo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
