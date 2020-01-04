@@ -14172,23 +14172,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\NET_1\\.nuget\\packages\\": {},
+    "C:\\Users\\Muhammad Ashraf\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ashraf\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+      "projectUniqueName": "g:\\projects\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
       "projectName": "AspNetCoreTodo",
-      "projectPath": "D:\\Ashraf\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
-      "packagesPath": "C:\\Users\\NET_1\\.nuget\\packages\\",
-      "outputPath": "D:\\Ashraf\\AspNetCoreTodo\\obj\\",
+      "projectPath": "g:\\projects\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+      "packagesPath": "C:\\Users\\Muhammad Ashraf\\.nuget\\packages\\",
+      "outputPath": "g:\\projects\\AspNetCoreTodo\\AspNetCoreTodo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\NET_1\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Muhammad Ashraf\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
