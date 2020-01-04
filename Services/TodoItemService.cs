@@ -16,23 +16,22 @@ namespace AspNetCoreTodo.Services {
             _context = context;
         }
 
-        public async Task<TodoItem[]> GetIncompleteItemsAsync (ApplicationUser user) {
+        public async Task<TodoItem[]> GetIncompleteItemsAsync () {
             return await _context.Items
-                .Where (x => x.IsDone == false && x.UserId == user.Id)
+                .Where (x => x.IsDone == false)
                 .ToArrayAsync ();
         }
-        public async Task<bool> AddItemAsync (TodoItem newItem, ApplicationUser user) {
+        public async Task<bool> AddItemAsync (TodoItem newItem) {
             newItem.Id = Guid.NewGuid ();
             newItem.IsDone = false;
-            newItem.UserId = user.Id;
             newItem.DueAt = DateTimeOffset.Now.AddDays (3);
             _context.Items.Add (newItem);
             var saveResult = await _context.SaveChangesAsync ();
             return saveResult == 1;
         }
-        public async Task<bool> MarkDoneAsync (Guid id, ApplicationUser user) {
+        public async Task<bool> MarkDoneAsync (Guid id) {
             var item = await _context.Items
-                .Where (x => x.Id == id && x.UserId == user.Id)
+                .Where (x => x.Id == id)
                 .SingleOrDefaultAsync ();
             if (item == null) return false;
             item.IsDone = true;
